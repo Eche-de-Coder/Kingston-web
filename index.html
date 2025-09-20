@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kingston Graphics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="navbar">
+    <img src="" alt="logo"/>
+    <button id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+    <!-- Side Menu Overlay -->
+    <div onclick="closeMenuHandler()" id="menuOverlay"></div>
+    <!-- Side Menu -->
+    <div id="sideMenu">
+      <nav id="sideNav">
+        <a href="#profile" class="side-item">About</a>
+        <a href="#works" class="side-item">Projects</a>
+        <a href="#testimonials" class="side-item">Testimonials</a>
+        <a href="#contact" class="side-item">Contact</a>
+        <p><a href="https://chrisarts.vercel.app"><small>Meet the Dev</small></a></p>
+      </nav>
+    </div>
+
+  <header id="home">
+    <div class="intro-name">Hello, I’m Kingston</div>
+    <div class="intro-role">Product & Graphic Designer</div>
+    <div class="intro-buttons">
+      <a href="#works">See My Work</a>
+      <a href="#contact">Contact Me</a>
+    </div>
+  </header>
+
+  <!-- Profile / Bio Section -->
+  <section id="profile" class="reveal">
+    <h2>About Me</h2>
+    <div class="profile">
+      <img src="PP.jpg" alt="Your Photo">
+      <div class="bio">
+        <h3>Who I Am</h3>
+        <p>
+          I am a passionate designer specializing in brand identity and graphic design. I merge creativity with strategy to create experiences that delight business owners and drive results.
+        </p>
+        <p>
+          Over the years, I’ve worked with clients from different industries, helping them shape logos, user flows, and flyer designs that stand out.
+        </p>
+        <div class="tags">
+          <span>Branding</span>
+          <span>Illustration</span>
+          <span>Product Design</span>
+          <span>Figma</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Works (Portfolio Grid) -->
+  <section id="works" class="reveal">
+    <h2>Recent Projects</h2>
+    <div class="portfolio-grid">
+      <div class="item">
+        <img src="project-1.jpg" alt="Project 1">
+        <div class="overlay">
+          <h4>Project One</h4>
+          <p>Business card</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="project-2.jpg" alt="Project 2">
+        <div class="overlay">
+          <h4>Project Two</h4>
+          <p>Flyer Design</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="project-3.jpg" alt="Project 3">
+        <div class="overlay">
+          <h4>Project Three</h4>
+          <p>Illustration</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="project-4.jpg" alt="Project 4">
+        <div class="overlay">
+          <h4>Project Four</h4>
+          <p>Product Design</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="reveal">
+    <h2>What Clients Say</h2>
+    <div class="testimonials">
+      <div class="testimonial">
+        <p>
+          "Kingston transformed our brand identity into something truly memorable, and the UI redesign boosted our engagement significantly."
+        </p>
+        <div class="author">— Client One, CEO at Company</div>
+      </div>
+      <div class="testimonial">
+        <p>
+          "Working with Kingston was a delight — very professional, creative, and always open to feedback. The final product exceeded our expectations."
+        </p>
+        <div class="author">— Client Two, Product Manager</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="reveal">
+    <h2>Let’s Talk</h2>
+    <div class="contact">
+      <p>If you have a project, idea, or just want to say hello—I'm all ears.</p>
+      <div id="icons">
+         <a href="" class="icon"><i class="fab fa-facebook"></i></a>
+         <a href="https://wa.me/+234 912 206 8546" class="icon"><i class="fab fa-whatsapp"></i></a>
+         <a href="" class="icon"><i class="fab fa-telegram"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Your Name — All Rights Reserved.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
